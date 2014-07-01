@@ -1,0 +1,41 @@
+html, body
+{
+	height: 100%;
+	position: relative;
+}
+
+body
+{
+	font-size: 20px;
+	display: table;
+	padding-bottom: 40px;
+	background: #EEE; 
+}
+
+#title
+{
+	font: bold 50px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	text-align: center;
+	margin: 80px 0;
+}
+
+#title a
+{
+	color: #E13314;
+	text-decoration: none;
+}
+
+.title
+{
+	color: #E13314;
+	font-size: 35px;
+	margin: 10px 0;
+}
+
+.info
+{
+	display: inline-block;
+	width: 60%;
+	min-width: 600px;
+	text-align: center;
+}

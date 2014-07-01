@@ -1,0 +1,34 @@
+URL remota -> trotamundos.tk
+
+Cambios a realizar para subir el proyecto a hosting
+
+1. Copiar todos los archivos excepto la carpeta public en la raiz del hosting
+
+2. Copiar el contenido de la carpeta public y pegarlo en la carpeta public del hosting
+
+3. En el archivo app/config/database.php, modificar las credenciales de acceso de mysql con las que te proporcione el hosting.
+
+			'mysql' => array(
+			'driver'    => 'mysql',         <-------
+			'host'      => 'localhost',	<-------
+			'database'  => 'trotamundos',	<-------
+			'username'  => 'root',		<-------
+			'password'  => '',
+			'charset'   => 'utf8',
+			'collation' => 'utf8_unicode_ci',
+			'prefix'    => '',
+		),
+
+4. En el archivo boostrap/paths.php modificar la ruta de acceso a la carpeta public (en el caso de que se llame diferente)
+
+
+
+		'public' => __DIR__.'/../public',
+
+5. Iniciar sesion en phpmyadmin del hosting e importar el archivo trotamundos_hosting.sql proporcionado con el proyecto.
+
+
+REQUISITOS DEL HOSTING
+
+PHP 5.5
+MYSQL 5.1

@@ -1,0 +1,77 @@
+.more-about
+{
+	border: 1px solid #EEE;
+}
+
+.aside-title
+{
+	background-color: #E13314; 
+	font-variant: small-caps;
+	color: white;
+	font-size: 20px;
+	padding: 8px;
+}
+
+.more-about li
+{
+	
+	border-bottom: 1px solid #DDD;
+}
+
+.more-about ul
+{
+	list-style: none;
+	font-size: 18px;
+}
+
+.more-about a
+{
+	display: block;
+	padding: 10px 0 10px 10px;
+	text-align: left;
+	color: #E13314;
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+}
+
+.more-about a:hover{
+	color: #BBB;
+}
+
+.top-ranking ul{
+	display: table;
+	width: 100%;
+}
+
+.top-ranking li
+{
+	display: table-row;
+	width: 100%;
+
+}
+
+.top-ranking a ,.top-ranking .votes{
+	display: table-cell;
+	vertical-align: middle;
+	border-bottom: 1px solid #AAA;
+}
+
+.top-ranking a{
+	width: 75%;
+	vertical-align: top;
+}
+
+.top-ranking .votes
+{
+	width: 25%;
+	background-color: #EEE;
+	text-align: center;
+	color: #666;
+	font-weight: bold;
+	border-right: 1px solid #AAA;
+}
+
+.clear{
+	clear: both;
+}

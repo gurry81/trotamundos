@@ -1,0 +1,136 @@
+article
+{
+	width: 75%;
+	position: relative;
+	margin: 40px auto 100px auto;
+	font:  18px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.article-title 
+{
+	text-decoration: none;
+	color: #E13314;
+	cursor: default;
+}
+
+.article-title
+{
+	text-align: left;
+	padding: 10px 15px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 30px;
+	font-variant: small-caps;
+	letter-spacing: 1px;
+	border-bottom: 1px solid #AAA;
+	border-top: 1px solid #AAA;
+}
+
+.article-meta
+{
+	position: relative;	
+	text-align: left;
+	padding: 3px 20px;
+	margin-bottom: 20px;
+}
+
+.article-sport
+{
+	margin-right: 10px;
+}
+
+.author
+{
+	position: absolute;
+	right: 20px;
+	font-style: italic;
+}
+
+.author a {
+	text-decoration: none;
+	color: #E13314;
+	font-weight: bold;
+}
+
+.article-date
+{
+	font-style: italic;
+	margin-left: 70px;
+}
+
+.article-content
+{
+	text-align: justify;
+	position: relative;
+}
+
+article img
+{
+	width: 80%;
+	max-width: 100%;
+	margin: 15px auto 40px auto;
+	display: block;
+	border-radius: 5px;
+}
+
+article .btn
+{
+	position: absolute;
+	right: 0px;
+	margin: 10px auto;
+	padding: 0px 20px;
+	background-color: #E13314;
+    font: bold 18px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: white;
+    border: none;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	cursor: default;
+}
+
+article .btn:hover
+{
+	background-color: #BBB;
+}
+
+article #description
+{
+	text-align: center;
+	width: 100%;
+}
+
+#register-event{
+	position: absolute;
+	width: 75px;
+	text-align: center;
+	right: 0px;
+	top: 0px;
+	margin: 0!important;
+	border-radius: 0px 7px 7px 0px;
+}
+
+#register-event a
+{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+.join
+{
+	background-color: #44C408!important;
+}
+
+.novoted:before
+{
+	content:"Like";
+}
+
+.voted:before
+{
+	content:"Unlike";
+}

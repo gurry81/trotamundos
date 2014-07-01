@@ -1,0 +1,192 @@
+form
+{
+	width: 100%;
+	min-width: 500px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin: 40px auto;
+	font-size: 20px;
+	position: relative;
+}
+
+form label
+{
+	font-weight: bold;
+}
+
+form img
+{
+	width: 200px;
+}
+
+.row
+{
+	display: block;
+	margin: 5px 20px;
+	width: 40%;
+	text-align: left;
+}
+
+textarea, #cke_editor
+{
+	width: 100%;
+}
+
+.textarea
+{
+	width: 60%;
+	min-width: 650px;
+	max-width: 800px;
+}
+
+form img, #options
+{
+	vertical-align: top;
+	width: 200px;
+}
+
+#options
+{
+	margin: 10px 0;
+}
+
+.option
+{
+	text-align: center;
+	display: block;
+}
+
+.error{
+	margin-top: 30px;
+	padding: 20px 30px;
+	text-align: left;
+	display: inline-block;
+	border: 1px solid #FCACAE;
+	font-weight: normal;
+	color: red;
+	background: #FAD9DA;
+	width: 400px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+/*post-edit*/
+
+textarea
+{
+	resize: vertical;
+}
+
+#right-sidebar
+{
+	position: absolute;
+	right: 0;
+	top: 10px;
+	width: 200px;
+	padding: 20px 0;
+	background-color: #EEE;
+}
+
+#right-sidebar label
+{
+	display: block;
+	margin: 10px 0;
+}
+
+#right-sidebar input:not([type=submit])
+{
+	display: block;
+	width: 90%;
+	margin: 5px auto;
+	background: white;
+}
+
+#right-sidebar #sport-list
+{
+	list-style: none;
+	font-size: 22px;
+}
+
+#right-sidebar #sport-list li
+{
+	display: inline-block;
+	width: auto;
+	margin: 5px;
+	color: black;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+}
+
+#right-sidebar #sport-list li:hover{
+	color: #E13314;
+}
+
+#right-sidebar #sport-list .active
+{
+	color: #E13314;
+}
+
+#right-sidebar .icon-spain{
+ 	font-size: 110px;
+ 	transition: all 0.3s;
+ 	-webkit-transition: all 0.3s;
+ 	-moz-transition: all 0.3s;
+ 	color: #BBB;
+ 	cursor: default;
+ }  
+
+ #right-sidebar .icon-spain:hover{
+ 	color: #E13314;
+ }
+
+ #right-sidebar a
+ {
+ 	color: #E13314;
+ }
+
+ #right-sidebar .option a
+ {
+ 	color: white;
+ 	text-decoration: none;
+ }
+
+
+/*SPAIN MAP SVG STYLE*/
+#svgMap{
+	text-align: right;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 2;
+	overflow: scroll;
+}
+
+#svgMap #map{
+	text-align: center;
+}
+
+#svgMap #states a path 
+{ 
+	stroke-width: 2px!important;
+	fill: #DDD;
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+}
+
+#svgMap #states a:hover path 
+{ 
+	fill: #E13314;
+}
+
+#svgMap .active
+{
+	fill: #E13314!important;
+}

@@ -1,0 +1,79 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-3ek86x');
+	src:url('fonts/icomoon.eot?#iefix-3ek86x') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-3ek86x') format('woff'),
+		url('fonts/icomoon.ttf?-3ek86x') format('truetype'),
+		url('fonts/icomoon.svg?-3ek86x#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-spain:before {
+	content: "\e607";
+}
+.icon-to-top:before {
+	content: "\e608";
+}
+.icon-right:before {
+	content: "\e606";
+}
+.icon-btt:before {
+	content: "\e604";
+}
+.icon-swimming:before {
+	content: "\e600";
+}
+.icon-running:before {
+	content: "\e602";
+}
+.icon-cyclism:before {
+	content: "\e603";
+}
+.icon-post:before {
+	content: "\e60d";
+}
+.icon-previous:before {
+	content: "\e60a";
+}
+.icon-edit:before {
+	content: "\e60e";
+}
+.icon-next:before {
+	content: "\e609";
+}
+.icon-users:before {
+	content: "\e60c";
+}
+.icon-remove:before {
+	content: "\e60f";
+}
+.icon-earth:before {
+	content: "\e601";
+}
+.icon-like:before {
+	content: "\e60b";
+}
+.icon-cross:before {
+	content: "\e605";
+}
+.icon-down:before {
+	content: "\e610";
+}
+.icon-up:before {
+	content: "\e611";
+}

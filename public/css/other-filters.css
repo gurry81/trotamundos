@@ -1,0 +1,142 @@
+
+
+/***** OTHER FILTERS style *****/
+
+#other-filters .filter-title
+{
+	background-color: #E13314; 
+	font-variant: small-caps;
+	color: white;
+	font-size: 20px;
+	padding: 8px;
+} 
+
+#other-filters .filter-options
+{
+	border: 1px solid #DDD;
+}
+
+#other-filters ul
+{
+	list-style: none;
+	width: 80%;
+	text-align: left;
+	margin: auto;
+}
+
+#other-filters li
+{
+margin: 5px 3px;
+display: inline-block;
+padding: 0px 25px 0 10px;
+font-weight: normal;
+font-size: 18px;
+background-color: #EEE;
+border-radius: 10px;
+border: 1px solid #DDD;
+text-align: left;
+position: relative;
+}
+
+#other-filters li .icon-cross
+{
+	color: #666;
+	font-size: 18px;
+	font-weight: normal;
+	position: absolute;
+	top: 0px;
+	right: 3px;
+	cursor: pointer;
+}
+
+#other-filters .filter-options label
+{
+	font-size: 20px;
+	font-variant: small-caps;
+	border-bottom: 1px solid #DDD;
+}
+
+#other-filters .label
+{
+	margin-bottom: 10px!important;
+}
+
+#other-filters .filter-options > div
+{
+	margin: 5px 0;
+}
+
+
+#other-filters .btn 
+{
+	display: block;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin: 10px auto;
+	padding: 0px 15px;
+	background-color: #E13314;
+    font: bold 18px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: white;
+    border: none;
+	cursor: pointer;
+}
+
+#other-filters .btn:hover
+{
+	background-color: #BBB;
+}
+ 
+ #map .icon-spain{
+ 	font-size: 110px;
+ 	transition: all 0.3s;
+ 	-webkit-transition: all 0.3s;
+ 	-moz-transition: all 0.3s;
+ 	color: #BBB;
+ 	cursor: default;
+ }  
+
+ #map .icon-spain:hover{
+ 	color: #E13314;
+ }
+
+
+/*SPAIN MAP SVG STYLE*/
+#svgMap{
+	text-align: right;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 2;
+	overflow: scroll;
+}
+
+#svgMap #map{
+	text-align: center;
+}
+
+#svgMap #states a path 
+{ 
+	stroke-width: 2px!important;
+	fill: #DDD;
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+}
+
+#svgMap #states a:hover path 
+{ 
+	fill: #E13314;
+}
+
+#svgMap .active
+{
+	fill: #E13314!important;
+}
+
+
+

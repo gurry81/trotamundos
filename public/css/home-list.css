@@ -1,0 +1,212 @@
+.content-separator
+{
+	text-align: left;
+	background: #E13314;
+	width: 60%;
+	box-shadow: 1px 0px 1px black;
+	position: relative;
+	height: 35px;
+	border-radius: 0 0 55px/35px 0;
+	margin: 0 0 15px 20px;
+
+}
+
+.title-separator
+{
+
+	font: bold 18px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	font-style: italic;
+	color: white;
+	display: inline-block;
+	padding: 4px 12px;
+	height: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-shadow: 0px 0px 7px black;
+}
+
+.slider
+{
+	width: 100%;
+	height: 350px;
+	position: relative;
+	margin: 40px auto 80px auto;
+	font:  18px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	text-align: center;
+}
+
+.sliderContent
+{
+	width: 700px;
+	height: 100%;
+	overflow: hidden;
+	display:inline-block;
+}
+
+.sliderImages
+{
+	width: 4200px;
+	position: relative;
+	left: 0;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+.article-intro{
+	width: 500px;
+	height: 270px;
+	margin: 0 100px;
+	position: relative;
+	float: left;
+	vertical-align: top;
+}
+
+.article-img{
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+
+.slider a
+{
+	text-decoration: none;
+	color: #E13314;
+}
+
+.article-title
+{
+	text-align: left;
+	padding: 10px 15px;
+	font-weight: bold;
+	font-size: 25px;
+	font-variant: small-caps;
+	letter-spacing: 1px;
+	background-color: rgba(0,0,0,0.6);
+	box-shadow: 0px 4px 5px black;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.article-title a{
+	display: block;
+	transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+
+.article-intro:hover .article-title a
+{
+	color: white;
+}
+
+.article-meta
+{
+	background-color: rgba(0,0,0,.9);
+	position: relative;
+	text-align: left;
+	padding: 5px 20px;
+	color: white;
+	border-top: 1px solid black;
+	position: absolute;
+	bottom: -30px;
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.article-sport
+{
+	margin-right: 10px;
+}
+
+.author
+{
+	position: absolute;
+	right: 20px;
+	font-style: italic;
+}
+
+.author a {
+	text-decoration: none;
+	color: #E13314;
+	font-weight: bold;
+}
+
+.icon-like
+{
+	margin: 0 5px;
+}
+
+.controls
+{
+	position: absolute;
+	width: 100%;
+	top: 120px; 
+}
+
+.control{
+	width: 40px;
+	height: 40px;
+	background: rgba(0,0,0,.8);
+	position: absolute;
+	color: white;
+	padding: 10px;
+	opacity: 0.7; 
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 35px;
+	transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-webkit-transition: all 0.6s;
+
+}
+
+.control:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+.controls .previous
+{
+	left: 50px;
+	display: none;
+}
+
+.controls .next
+{
+	right: 50px;
+}
+
+@media all and (min-width: 1250px){
+	.sliderContent
+	{
+		width: 900px;
+	}
+
+	.article-intro
+	{
+		width: 600px;
+		height: 300px;
+		margin: 0 150px;
+
+	}
+
+	.sliderImages
+	{
+		width: 5400px;
+	}
+}

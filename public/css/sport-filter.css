@@ -1,0 +1,123 @@
+
+ /***** SPORT FILTERS STYLE *****/
+
+#sport-filter .filter-title
+{
+	background-color: #E13314; 
+	font-variant: small-caps;
+	color: white;
+	font-size: 20px;
+	padding: 8px;
+} 
+
+#sport-filter .filter-options
+{
+	border: 1px solid #DDD;
+}
+
+#sport-filter ul
+{
+	list-style: none;
+}
+
+#sport-filter li
+{
+	margin: 10px 0;
+	text-align: right;
+}
+
+#sport-filter a
+{
+	display: block;
+	text-decoration: none;
+	font-size: 70px;
+	color: black;
+}
+
+.sport-option .sport-icon, .sport-option .sport-name, .sport-option .sport-separator
+{
+	float: left;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.sport-option .sport-icon
+{
+	width: 50%;
+}
+
+.sport-option .sport-name
+{
+	width: 40%;
+}
+
+.sport-selected [class*="icon-"]
+{
+	color: #E13314; 
+}
+
+.sport-option [class*="icon-"]
+{
+	position: relative;
+	left: -30%;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+#sport-filter .sport-icon,#sport-filter .sport-name,#sport-filter .sport-name span
+{
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+#sport-filter .sport-name
+{
+	font-size:20px;
+	height: 70px;
+	text-align: left;
+	margin-left: -20%;
+	position: relative;
+}
+
+#sport-filter .sport-name span 
+{
+	position: absolute;
+	left: -100%;
+	font-variant: small-caps;
+}
+
+#sport-filter .sport-separator
+{
+	width: 60%;
+	margin: 14px 20% 0 20%;
+	height: 1px;
+	background-color: grey;
+	opacity: 0.3;
+}
+
+.clear
+{
+	clear: both;
+	display: block;
+
+}
+
+.sport-option:hover .sport-name
+{
+	margin-left: 10px!important;
+}
+
+.sport-option:hover .sport-name span
+{
+	left: 0!important;
+}
+
+.sport-option:hover [class*="icon-"]
+{
+	color: #E13314!important;
+}
+
+

@@ -1,0 +1,80 @@
+footer
+{
+	width: 100%;
+	padding: 5px 10px 20px 30px;
+	background-color: rgba(0,0,0,0.7);
+	border-top: 2px solid black;
+	color: white;
+	font:  18px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	position: absolute;
+	bottom: -105px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+footer ul
+{
+	list-style: none;
+}
+
+footer li
+{
+	margin: 5px;
+}
+
+footer a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	cursor: default;
+}
+
+footer a:hover
+{
+	color: #E13314;
+}
+
+footer .footer-part
+{
+	width: 32%;
+	display: inline-block;
+	font-size: 0;
+	vertical-align: top;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+footer .footer-separator
+{
+	width: 1px;
+	height: 70%;
+	background-color: #DDD;
+}
+
+footer .footer-title
+{
+	font-variant: small-caps;
+	font-size: 20px;
+	margin: 0 0 10px 0;
+}
+
+footer .colaborator-logo
+{
+	height: 20px;
+}
+
+ #colaborators-footer li
+ {
+ 	display: inline-block;;
+ }
+
+ #lang-footer
+ {
+ 	text-align: center;
+ }

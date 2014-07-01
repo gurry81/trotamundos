@@ -1,0 +1,51 @@
+#info
+{
+	width: 100%;
+	min-width: 500px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin: 40px auto;
+	font-size: 20px;
+}
+
+#info img
+{
+	width: 200px;
+}
+
+.row
+{
+	display: block;
+	margin: 5px auto;
+	width: 400px;
+	text-align: left;
+}
+
+#options
+{
+	width: 180px;
+}
+
+#info img, #options
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#options .cancel
+{
+	text-decoration: none;
+}
+
+.option
+{
+	text-align: center;
+	display: block;
+}
+
+label
+{
+	display: block;
+	width: 100%;
+}

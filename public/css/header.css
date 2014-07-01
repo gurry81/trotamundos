@@ -1,0 +1,315 @@
+
+
+ /***** HEADER *****/
+
+header
+{
+	width: 100%;
+	height: 85px;
+	padding: 15px 2%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+}
+
+header
+{
+	background: #E13314;
+	color: white;
+	font:  bold 18px 'lucida sans', 'trebuchet MS', 'Tahoma';
+
+
+}
+
+header > div
+{
+	display: inline-block;
+	height: 100%;
+	vertical-align: top;
+	text-align: center;
+}
+
+nav ul
+{
+	list-style: none;
+}
+
+nav li
+{
+	display: inline-block;
+}
+
+header a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.headerSeparator
+{
+	background: white;
+	width: 1px;
+	opacity: 0.4;
+}
+
+#home, #header-menu a{
+	
+	font-size: 22px;
+}
+
+#home
+{
+	width: 20%;
+	text-align: left;
+}
+
+#home a
+{
+	display: table;
+	height: 100%;
+}
+
+#titleHome
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#headerMenu
+{
+	width :45%;
+	line-height: 50px;
+}
+
+#header-user
+{
+	width: 30%;
+	text-align: center;
+}
+
+#titleHome
+{
+	letter-spacing: 1px;
+	color: white;
+}
+
+#home .icon-earth{
+	display: inline-block;
+}
+
+#home a:hover .icon-earth
+{
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	transform:rotate(360deg);
+}
+
+#home .icon-earth
+{
+	transition: all 0.7s;
+	-webkit-transition: all 0.7s;
+	-moz-transition: all 0.7s;
+}
+
+#headerMenu li 
+{
+	padding: 0 15px;
+}
+
+#headerMenu .active
+{
+	box-shadow: 0px 0px 5px white;
+	border-radius: 2px;
+}
+
+#headerMenu a
+{
+	color: white;
+	cursor: default;
+	font-variant: small-caps;
+	font-size: 25px;
+}
+
+#headerMenu li:hover .menuOver
+{
+	background: white;
+}
+
+.menuOver, .menuSelected
+{
+	height: 3px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+.menuSelected
+{
+	background: white;
+}
+
+/* INPUT STYLE GENERAL (CHECK)*/
+
+header input:not([type="submit"]) {
+	width: 145px;
+	height: 32px;
+	padding: 6px 5px;
+	font: 18px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	border: 0;
+	background: #EEE;
+	border-radius: 3px 0 0 3px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+ header input:focus:not([class="btn"]) {
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+
+ header input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+   font-style: italic;
+}
+
+ header input:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+ header input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+} 
+
+ .btn 
+{
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 0px 15px;
+	background-color: #E1820D;
+    font: bold 18px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: white;
+    border: none;
+	cursor: default;
+	right: 5px;
+}
+
+ .btn:hover
+{
+	background-color: #BBB;
+}
+
+header .btn
+{
+	height: 32px;
+	margin: 0;
+	line-height: 15px;
+	position: absolute;
+	display: inline-block;
+}
+#header-user
+{
+	text-align: left;
+}
+
+#header-user #login{
+	width: 300px;
+	text-align: left;
+	display: inline-block;
+	position: relative;
+	top: -11px;
+}
+
+#login form > div
+{
+	margin: 5px 0;
+}
+
+#header-user #login a 
+{
+	text-decoration: underline;
+	display: inline-block;
+	text-align: left;
+	padding: 10px 0 0 5px ;
+}
+
+header #perfil
+{
+	display: inline-block;
+	position: relative;
+	padding: 3px;
+	padding: 0px 12px 0px 15px;
+	height: 60px;
+	top: -5px;
+}
+
+header #perfil #user-name
+{
+	width: 100px;
+	display: inline-block;
+	overflow-wrap: break-word;
+	vertical-align: top;
+}
+
+header #perfil img
+{
+	height: 60px;
+	width: 70px;
+	border-radius: 5px;
+	border: 1px solid white;
+}
+
+header #perfil ul
+{
+	list-style: none;
+	background-color: #EEE;
+	position: absolute;
+	top: 0;
+	right: -115px;
+	width: 110px;
+	text-align: left;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	cursor: default;
+	display: none;
+}
+
+header #perfil li:hover
+{
+	background-color: #DDD;
+}
+
+header #perfil a
+{
+	color: black;
+	font-weight: normal;
+	font-variant: small-caps;
+	padding: 2px 2px 2px 10px;
+	display: block;
+}
+
+header #user-menu-button
+{
+	color: white;
+	position: absolute;
+	top: 0px;
+	right: -5px;
+	background: transparent;
+	cursor: pointer;
+}
+
+@media all and (min-width: 1250px){
+	#header-user
+	{
+		text-align: center;
+	}
+}
